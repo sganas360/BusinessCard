@@ -11,6 +11,8 @@
 		700CFC2529CBB0B70052F1C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700CFC2429CBB0B70052F1C6 /* ContentView.swift */; };
 		700CFC2729CBB0BB0052F1C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 700CFC2629CBB0BB0052F1C6 /* Assets.xcassets */; };
 		700CFC2A29CBB0BB0052F1C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 700CFC2929CBB0BB0052F1C6 /* Preview Assets.xcassets */; };
+		700CFC3229CBB2710052F1C6 /* DeliciousHandrawn-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 700CFC3129CBB2710052F1C6 /* DeliciousHandrawn-Regular.ttf */; };
+		700CFC3529CCB1540052F1C6 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700CFC3429CCB1540052F1C6 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,9 @@
 		700CFC2429CBB0B70052F1C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		700CFC2629CBB0BB0052F1C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		700CFC2929CBB0BB0052F1C6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		700CFC3129CBB2710052F1C6 /* DeliciousHandrawn-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DeliciousHandrawn-Regular.ttf"; sourceTree = "<group>"; };
+		700CFC3329CBB2EF0052F1C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		700CFC3429CCB1540052F1C6 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +56,10 @@
 		700CFC2129CBB0B70052F1C6 /* BusinessCard */ = {
 			isa = PBXGroup;
 			children = (
+				700CFC3329CBB2EF0052F1C6 /* Info.plist */,
+				700CFC3029CBB2610052F1C6 /* Fonts */,
 				700CFC2229CBB0B70052F1C6 /* BusinessCardApp.swift */,
+				700CFC3429CCB1540052F1C6 /* InfoView.swift */,
 				700CFC2429CBB0B70052F1C6 /* ContentView.swift */,
 				700CFC2629CBB0BB0052F1C6 /* Assets.xcassets */,
 				700CFC2829CBB0BB0052F1C6 /* Preview Content */,
@@ -65,6 +73,14 @@
 				700CFC2929CBB0BB0052F1C6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		700CFC3029CBB2610052F1C6 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				700CFC3129CBB2710052F1C6 /* DeliciousHandrawn-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				700CFC2A29CBB0BB0052F1C6 /* Preview Assets.xcassets in Resources */,
+				700CFC3229CBB2710052F1C6 /* DeliciousHandrawn-Regular.ttf in Resources */,
 				700CFC2729CBB0BB0052F1C6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				700CFC2529CBB0B70052F1C6 /* ContentView.swift in Sources */,
+				700CFC3529CCB1540052F1C6 /* InfoView.swift in Sources */,
 				700CFC2329CBB0B70052F1C6 /* BusinessCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +288,7 @@
 				DEVELOPMENT_TEAM = 4Y462374L4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BusinessCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +318,7 @@
 				DEVELOPMENT_TEAM = 4Y462374L4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BusinessCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
